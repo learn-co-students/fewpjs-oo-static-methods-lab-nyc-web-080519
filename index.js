@@ -20,6 +20,7 @@ class Formatter {
         title.push(this.capitalize(word))
       }
     })
+    
     title[0] = this.capitalize(title[0])
     return title.join(" ")
   }
